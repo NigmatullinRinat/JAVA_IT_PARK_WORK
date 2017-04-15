@@ -14,7 +14,7 @@ public class MainOutputStream {
         try {
             outputStream.write(FigureMessage);
         } catch (IOException e) {
-            e.printStackTrace();
+            System.out.println("Нет такого файла");
         }
     }
 }
